@@ -14,7 +14,7 @@ let Projects = [
         deployLink: "https://obscure-escarpment-21392.herokuapp.com/",
         repoLink: "https://github.com/JenJayme/employee-directory",
         builtWith: "Javascript, React, React-Boostrap, Node.js & Express.js",
-        photo: "employeedir.png",
+        photo: "employeedir.gif",
     }, {
         id: 3,
         name: "Bragging Rights: Call of Duty",

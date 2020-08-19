@@ -21,19 +21,26 @@ class Portfolio extends React.Component {
         for (var i = 0; i < Projects.length; i++) {
             let photoUrl = process.env.PUBLIC_URL + "/images/" + Projects[i].photo;
             carouselItems.push(
-                <div>
+                <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={photoUrl}
                 alt={Projects[i].name}
                 key={Projects[i].id}
                 ></img>
+                <Carousel.Caption>
+                {Projects[i].name}
+                </Carousel.Caption>
                 <h3>{Projects[i].name}</h3>
                 <p>{Projects[i].description}</p>
+                
+                <p><strong>Built With:</strong></p>
                 <p>{Projects[i].builtWith}</p>
-                <a>{Projects[i].deployLink}</a>
-                <a>{Projects[i].repoLink}</a>
-                </div>
+
+                <p><strong>Links:</strong></p>
+                <a href={Projects[i].deployLink}>deployed</a>
+                <a href={Projects[i].repoLink}>repo on GitHub</a>
+                </Carousel.Item>
             )
         }
         return (
