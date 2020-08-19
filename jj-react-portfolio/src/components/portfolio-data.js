@@ -55,6 +55,14 @@ let Projects = [
         repoLink: "https://github.com/JenJayme/spartan-tracker",
         builtWith: "Javascript, Bootstrap, Node.js & Express.js",
         photo: "virtuous-circle.png",
+    }, {
+        id: 8,
+        name: "Middle Ground",
+        description: "A social media news aggregator that shines a light on differences in news streams shared in conservative and liberal news sources",
+        deployLink: "https://dashboard.heroku.com/apps/spartan-tracker",
+        repoLink: "https://github.com/JenJayme/spartan-tracker",
+        builtWith: "Javascript, Bootstrap, Node.js & Express.js",
+        photo: "virtuous-circle.png",
     },
 ]
 

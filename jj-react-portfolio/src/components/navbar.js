@@ -6,7 +6,7 @@ function MyNavbar() {
 
     return (
 
-        <Navbar expand="lg">
+        <Navbar sticky="top" expand="lg">
             <Navbar.Brand href="/">
                 <img src="../jj-logo-md.png" width="400" className="navbar" alt="Jen Jayme"></img>
             </Navbar.Brand>
