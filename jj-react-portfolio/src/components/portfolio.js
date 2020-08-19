@@ -17,12 +17,14 @@ class Portfolio extends React.Component {
 
         let Projects = this.state.projects;
         const carouselItems = [];
+        
         for (var i = 0; i < Projects.length; i++) {
+            let photoUrl = process.env.PUBLIC_URL + "/images/" + Projects[i].photo;
             carouselItems.push(
                 <div>
                 <img
                 className="d-block w-100"
-                src={Projects[i].photo}
+                src={photoUrl}
                 alt={Projects[i].name}
                 key={Projects[i].id}
                 ></img>

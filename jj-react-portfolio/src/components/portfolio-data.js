@@ -38,7 +38,7 @@ let Projects = [
         deployLink: "https://jenjayme.github.io/Project_Miles/",
         repoLink: "https://github.com/JenJayme/Project_Miles",
         builtWith: "Javascript, Materialize, Node.js & Express.js",
-        photo: "virtuous-circle.png",
+        photo: "project-miles.png",
     }, {
         id: 6,
         name: "Game of Thrones Quiz",
@@ -46,7 +46,7 @@ let Projects = [
         deployLink: "https://jenjayme.github.io/quiz-game/",
         repoLink: "https://github.com/JenJayme/quiz-game",
         builtWith: "Javascript, Bootstrap, Node.js & Express.js",
-        photo: "virtuous-circle.png",
+        photo: "got-min.jpg",
     }, {
         id: 7,
         name: "Spartan Fitness Tracker",
@@ -54,7 +54,7 @@ let Projects = [
         deployLink: "https://dashboard.heroku.com/apps/spartan-tracker",
         repoLink: "https://github.com/JenJayme/spartan-tracker",
         builtWith: "Javascript, Bootstrap, Node.js & Express.js",
-        photo: "virtuous-circle.png",
+        photo: "spartan.png",
     }, {
         id: 8,
         name: "Middle Ground",
@@ -62,7 +62,7 @@ let Projects = [
         deployLink: "https://dashboard.heroku.com/apps/spartan-tracker",
         repoLink: "https://github.com/JenJayme/spartan-tracker",
         builtWith: "Javascript, Bootstrap, Node.js & Express.js",
-        photo: "virtuous-circle.png",
+        photo: "middle-ground.png",
     },
 ]
 

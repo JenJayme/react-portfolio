@@ -2,8 +2,6 @@ import React from 'react';
 // import Projects from './portfolio-data';
 import Carousel from 'react-bootstrap/Carousel';
 
-const photoUrlPrefix = process.env.PUBLIC_URL + "/images/";
-
 function Project(props) {
     // console.log("Projects imported as: ", Projects);
 
