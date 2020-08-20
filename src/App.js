@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import logo from './logo.svg';
 import './App.css';
 import MyNavbar from './components/navbar';
 import Home from './components/home'
@@ -12,6 +11,8 @@ import Skills from './components/skills';
 import Footer from './components/footer';
 import Carousel from 'react-bootstrap/Carousel';
 import CompiledQuotes from './components/quotes';
+// require.context('../images', true, /\.svg$/);
+
 
 
 function App() {

@@ -4,11 +4,12 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function MyNavbar() {
 
+    let logo = process.env.PUBLIC_URL + "../images/jj-logo-md.png"
     return (
 
         <Navbar sticky="top" expand="lg" className="navbar">
             <Navbar.Brand href="/">
-                <img src="../jj-logo-md.png" className="navLogo" alt="Jen Jayme"></img>
+                <img src={logo} className="navLogo" alt="Jen Jayme"></img>
             </Navbar.Brand>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,7 +27,7 @@ function MyNavbar() {
                     </Nav.Link> */}
                     <Nav.Link href="/portfolio" className="navlink">Portfolio
                     </Nav.Link>
-                    <NavDropdown title="Blog" className="navlink" id="basic-nav-dropdown">
+                    {/* <NavDropdown title="Blog" className="navlink" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">
                             Coding Boot Camp
                         </NavDropdown.Item>
@@ -38,7 +39,7 @@ function MyNavbar() {
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown>
+                    </NavDropdown> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

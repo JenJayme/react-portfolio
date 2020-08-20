@@ -10,7 +10,7 @@ function Home() {
                         <Media className="myVideo">
                             <ResponsiveEmbed aspectRatio="16by9">
 
-                                <video autoPlay muted loop src="./images/revelation.mp4" />
+                                <video autoPlay muted loop src={process.env.PUBLIC_URL + "./images/revelation.mp4"} />
 
                             </ResponsiveEmbed>
                         </Media>
