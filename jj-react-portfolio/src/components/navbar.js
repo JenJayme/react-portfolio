@@ -21,9 +21,9 @@ function MyNavbar() {
                     <Nav.Link href="/skills" className="navlink">
                         Skills
                     </Nav.Link>
-                    <Nav.Link href="/work" className="navlink">
+                    {/* <Nav.Link href="/work" className="navlink">
                         Work History
-                    </Nav.Link>
+                    </Nav.Link> */}
                     <Nav.Link href="/portfolio" className="navlink">Portfolio
                     </Nav.Link>
                     <NavDropdown title="Blog" className="navlink" id="basic-nav-dropdown">

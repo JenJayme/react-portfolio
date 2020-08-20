@@ -5,7 +5,7 @@ function Bio () {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col s={5} lg={8}>
                 <p className="bio">
                 Jen is enjoying a second career focused on full-stack web development after 20+ years of professional experience in marketing, communications and fundraising.</p>
                 

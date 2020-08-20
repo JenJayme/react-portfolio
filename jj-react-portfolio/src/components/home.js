@@ -10,7 +10,8 @@ function Home() {
                         <Media className="myVideo">
                             <ResponsiveEmbed aspectRatio="16by9">
 
-                                <video autoPlay muted loop  src="./images/revelation.mp4" />
+                                <video autoPlay muted loop src="./images/revelation.mp4" />
+
                             </ResponsiveEmbed>
                         </Media>
 
@@ -20,9 +21,9 @@ function Home() {
                     </Col>
                     <Col>
                         {/* Use a button to pause/play the video with JavaScript */}
-                        <div>
-                            <Button id="pauseBtn" onclick="pauseVid()">pause video</Button>
-                        </div>
+                        {/* <div>
+                            <Button id="pauseBtn" onClick="pauseVid()">pause video</Button>
+                        </div> */}
                     </Col>
                 </Row>
 
@@ -30,7 +31,7 @@ function Home() {
                 <div class="overlay center">
                     <p class="tagline">web developer | revelation engineer</p>
                 </div>
-    
+
             </Container>
         </div>
 

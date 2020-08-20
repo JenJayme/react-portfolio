@@ -23,13 +23,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
 }
 
 .bio {
   text-justify: inter-word;
   text-align: justify;
-
+  font-size: 1em;
 }
 
 footer {
@@ -63,10 +63,11 @@ html {
 
 .headshot {
   border-radius: 50%;
-  height: 70%;
+  height: 15em;
 }
 
 .myVideo {
+  float: none;
   position: fixed;
   display: block;
   top: 50%;
@@ -102,4 +103,15 @@ html {
 .navLogo {
   width: 65%;
   margin-top: 7%;
+}
+
+.projectCarousel {
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: .2em;
+}
+
+.projectDesc {
+  padding-left: 1em;
+  padding-right: 1em;
 }

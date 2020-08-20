@@ -2,6 +2,7 @@ import React from 'react';
 import Projects from './portfolio-data';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import Project from './project';
 
 
@@ -28,25 +29,29 @@ class Portfolio extends React.Component {
                 alt={Projects[i].name}
                 key={Projects[i].id}
                 ></img>
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                 {Projects[i].name}
-                </Carousel.Caption>
-                <h3>{Projects[i].name}</h3>
-                <p>{Projects[i].description}</p>
-                
-                <p><strong>Built With:</strong></p>
-                <p>{Projects[i].builtWith}</p>
+                </Carousel.Caption> */}
+                <Card>
+                    <Card.Title>
+                    <h3>{Projects[i].name}</h3>
+                    </Card.Title>
+                    <Card.Text className="projectDesc">
+                <p>{Projects[i].description}<br></br><span className="font-italic">
+                Built with: {Projects[i].builtWith}</span></p>
 
-                <p><strong>Links:</strong></p>
-                <a href={Projects[i].deployLink}>deployed</a>
-                <a href={Projects[i].repoLink}>repo on GitHub</a>
+                <Card.Link href={Projects[i].deployLink} className="text-left">Deployed</Card.Link>
+                <Card.Link href={Projects[i].repoLink}>Repo</Card.Link>
+
+                </Card.Text>
+                </Card>
                 </Carousel.Item>
             )
         }
         return (
             <div>
                 <Container>
-                    <Carousel>
+                    <Carousel className="projectCarousel">
                         {carouselItems}
                     </Carousel>
                 </Container>
