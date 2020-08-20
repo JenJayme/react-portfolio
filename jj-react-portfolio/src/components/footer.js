@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Footer() {
     return (
 
-        <footer className="footer mt-auto py-3">
+        <footer>
             <Container>
                 <Row>
                     <Col xs={4} md={2} lg={2}>

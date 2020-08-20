@@ -28,9 +28,9 @@ function Home() {
                 {/* </Row> */}
 
                 {/* Overlay with text */}
-                <div className="overlay">
+                {/* <div className="overlay">
                     <p className="tagline">web developer | revelation engineer</p>
-                </div>
+                </div> */}
 
             </Container>
         </div>
