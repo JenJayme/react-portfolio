@@ -6,9 +6,9 @@ function MyNavbar() {
 
     return (
 
-        <Navbar sticky="top" expand="lg">
+        <Navbar sticky="top" expand="lg" className="navbar">
             <Navbar.Brand href="/">
-                <img src="../jj-logo-md.png" width="400" className="navbar" alt="Jen Jayme"></img>
+                {/* <img src="../jj-logo-md.png" width="400" alt="Jen Jayme"></img> */}
             </Navbar.Brand>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
             carouselItems.push(
                 <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 .img-fluid"
                 src={photoUrl}
                 alt={Projects[i].name}
                 key={Projects[i].id}

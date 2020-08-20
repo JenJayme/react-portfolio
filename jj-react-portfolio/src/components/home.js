@@ -1,8 +1,39 @@
 import React from 'react';
+import { Media, Container, Row, Col, Button, ResponsiveEmbed } from 'react-bootstrap';
 
-function Home () {
+function Home() {
     return (
-        <h1>Home Page</h1>
+        <div>
+            <Container>
+                <Row>
+                    <Col>
+                        <Media className="myVideo">
+                            <ResponsiveEmbed aspectRatio="16by9">
+
+                                <video autoPlay muted loop  src="./images/revelation.mp4" />
+                            </ResponsiveEmbed>
+                        </Media>
+
+                        {/* Name/Logo */}
+                        <img id="homeLogo" src="./images/jj-logo-lg-01.png" alt="Jen Jayme" />
+
+                    </Col>
+                    <Col>
+                        {/* Use a button to pause/play the video with JavaScript */}
+                        <div>
+                            <Button id="pauseBtn" onclick="pauseVid()">pause video</Button>
+                        </div>
+                    </Col>
+                </Row>
+
+                {/* Overlay with text */}
+                <div class="overlay center">
+                    <p class="tagline">web developer | revelation engineer</p>
+                </div>
+    
+            </Container>
+        </div>
+
     )
 }
 
