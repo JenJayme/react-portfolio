@@ -4,9 +4,9 @@ import { Media, Container, Row, Col, Button, ResponsiveEmbed } from 'react-boots
 function Home() {
     return (
         <div>
-            <Container>
-                <Row>
-                    <Col>
+            <Container className="homeBackground">
+                {/* <Row>
+                    <Col> */}
                         <Media className="myVideo">
                             <ResponsiveEmbed aspectRatio="16by9">
 
@@ -16,20 +16,20 @@ function Home() {
                         </Media>
 
                         {/* Name/Logo */}
-                        <img id="homeLogo" src="./images/jj-logo-lg-01.png" alt="Jen Jayme" />
+                        {/* <img id="homeLogo" src="./images/jj-logo-lg-01.png" alt="Jen Jayme" /> */}
 
-                    </Col>
-                    <Col>
+                    {/* </Col> */}
+                    {/* <Col> */}
                         {/* Use a button to pause/play the video with JavaScript */}
                         {/* <div>
                             <Button id="pauseBtn" onClick="pauseVid()">pause video</Button>
                         </div> */}
-                    </Col>
-                </Row>
+                    {/* </Col> */}
+                {/* </Row> */}
 
                 {/* Overlay with text */}
-                <div class="overlay center">
-                    <p class="tagline">web developer | revelation engineer</p>
+                <div className="overlay">
+                    <p className="tagline">web developer | revelation engineer</p>
                 </div>
 
             </Container>

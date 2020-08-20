@@ -42,6 +42,11 @@ html {
   background-color: rgb(83, 118, 189);
 }
 
+.homeBackground {
+  display: -webkit-flex;
+  float: none;
+}
+
 #homeLogo {
   margin-top: 20%;
   margin-left: 60%;
@@ -60,6 +65,20 @@ html {
     transform: rotate(360deg);
   }
 } */
+
+.content {
+  margin: auto;
+  left: 20%;
+  position: fixed;
+  text-align: center;
+  bottom: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+  color: #f1f1f1;
+  width: 60%;
+  padding: 20px;
+  display: inline-block;
+}
 
 .headshot {
   border-radius: 50%;
@@ -103,6 +122,11 @@ html {
 .navLogo {
   width: 65%;
   margin-top: 7%;
+}
+
+.overlay {
+  display: flexbox;
+  float: none;
 }
 
 .projectCarousel {
