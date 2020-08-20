@@ -2,61 +2,61 @@ import React from 'react';
 
 let skillsData = [
     {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Adobe Illustrator"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Adobe InDesign"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Adobe PhotoShop"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Javascript"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "jQuery"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Bootstrap"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Materialize"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "React"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "React-Boostrap"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "HTML5"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "CSS"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "MySql"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "MongoDB"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "APIs"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Git Hub"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Salesforce"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Blackbaud RE-NXT"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Blackbaud Raisers Edge"
     }, {
-        category: "Techologies",
+        category: "Technologies",
         skill: "Wordpress"
     }, {
         category: "Leadership",
@@ -69,10 +69,10 @@ let skillsData = [
         skill: "Project Management"
     }, {
         category: "Technologies",
-        skill: "Agile Application Development"
+        skill: "Agile Methodologies"
     }, {
         category: "Technologies",
-        skill: "Model-View-Controller Paradigm"
+        skill: "Model-View-Controller"
     }, {
         category: "Technologies",
         skill: "Handlebars"
@@ -81,20 +81,35 @@ let skillsData = [
         skill: "MERN Stack"
     }, {
         category: "Technologies",
-        skill: "Agile Application Development"
+        skill: "Object-Oriented Prog"
     }, {
-        category: "Technologies",
-        skill: "Object-Oriented Programming"
-    },{
         category: "Leadership",
         skill: "Strategy"
-    },{
+    }, {
         category: "Other",
         skill: "Event Planning"
     }, {
         category: "Other",
         skill: "Business Development"
-    },
+    }, {
+        category: "Other",
+        skill: "Problem-Solving"
+    }, {
+        category: "Other",
+        skill: "Collaboration"
+    }, {
+        category: "Other",
+        skill: "Resourcefulness"
+    }, {
+        category: "Leadership",
+        skill: "Quality Assurance"
+    }, {
+        category: "Leadership",
+        skill: "Meeting Facilitation"
+    }, {
+        category: "Leadership",
+        skill: "Active Listening"
+    }
 ]
 
 export default skillsData;

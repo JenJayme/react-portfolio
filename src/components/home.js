@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Container, Row, Col, Button, ResponsiveEmbed } from 'react-bootstrap';
+import { Media, Container, ResponsiveEmbed } from 'react-bootstrap';
 
 function Home() {
     return (
