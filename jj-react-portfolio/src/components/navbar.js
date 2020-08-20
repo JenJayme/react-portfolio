@@ -8,7 +8,7 @@ function MyNavbar() {
 
         <Navbar sticky="top" expand="lg" className="navbar">
             <Navbar.Brand href="/">
-                {/* <img src="../jj-logo-md.png" width="400" alt="Jen Jayme"></img> */}
+                <img src="../jj-logo-md.png" className="navLogo" alt="Jen Jayme"></img>
             </Navbar.Brand>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

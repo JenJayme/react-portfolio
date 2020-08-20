@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: cornflowerblue;
 }
 
 .App-logo {
@@ -24,6 +25,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
   margin-bottom: .5em;
+}
+
+.bio {
+  text-justify: inter-word;
+  text-align: justify;
+
 }
 
 body {
@@ -80,10 +87,14 @@ body {
   display: block;
   box-sizing: border-box;
   padding-top: 1em;
-  height: 6em;
+  height: 5em;
 }
 
 .navlink {
   color: white !important;
 }
 
+.navLogo {
+  width: 65%;
+  margin-top: 7%;
+}
