@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Work from './components/work';
 import Skills from './components/skills';
+import Footer from './components/footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/work" component={Work}/>
       </Switch>
     </div>
+    <Footer />
     </Router>
   );
 }
